@@ -1,1 +1,220 @@
-/* Agrega aquí tus estilos*/
+/*imagen de portada*/
+header{
+	padding-top: 100px;
+	background: url(../image/franky.jpg);
+	height: 400px;
+	margin-top: -60px;
+}
+/*primer titulo*/
+h1 {
+	border-color: #000;
+    text-shadow:
+   -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+   -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+	font-family:'Galada', cursive;
+	text-align: center;
+	font-size: 70px;
+	color:#e06040;		
+}
+
+/*segundo titulo*/
+ h2{
+ 	border-color: #000;
+    text-shadow:
+   -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+   -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+ 	font-family: 'Buda', cursive;
+ 	text-align: left;
+ 	font-size: 40px;
+ 	color:#806040;
+ } 
+
+/*cuerpo del texto completo*/
+body{
+	background-color:#F9E79F; 
+	font-family:'Buda', cursive;
+	font-size: 25px;
+}
+
+
+/*bordes*/
+.page-wrapper{
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid #c06040;
+}
+
+/*texto bajo el titulo*/
+#zen-summary{
+ 	font-family: 'Kurale', serif;
+ 	text-align: left;
+ 	font-size: 25px;
+  	color: #e06040;
+	background:#804040;
+	padding:20px 80px;
+	border-radius: 0px 0px 0px 200px;
+}
+
+
+/*primer titulo y parrafo (the Road to Enlightenment)*/
+#zen-preamble
+	h3{
+	font-size: 40px;
+	text-align: center;	
+	background: url(../image/flor.jpg);
+	height: 60px;
+	margin-top: 40px;		
+	color: #e06040;
+}
+.preamble{
+	margin-top: 40px;
+	background: url(../image/blaqui.jpg);
+	padding:-10px -50px;
+	border-radius: 150px 50px 90px 0px;
+	margin: 40px;
+}
+
+
+
+/*segundo titulo y parrafo(So What is This About?)*/
+#zen-explanation h3{
+	font-size: 40px;
+	text-align: center;
+	background: url(../image/flor.jpg);
+	height: 60px;
+	margin-top: 40px;
+	color: #e06040;	
+	margin: 5px;
+	padding: 10px; 
+}
+.explanation{
+	margin-top: 40px;
+	background: url(../image/blaqui.jpg);
+	padding:-10px -50px;
+	border-radius: 150px 50px 90px 0px;
+	margin: 40px;	
+}	
+
+/*tercer titulo y parrafo(Participation)*/
+#zen-participation
+h3{
+	font-size: 40px;
+	text-align: center;
+	background: url(../image/flor.jpg);
+	height: 60px;
+	margin-top: 40px;
+	color: #e06040;	
+}
+.participation{
+	margin-top: 40px;
+	background: url(../image/blaqui.jpg);
+	padding:-10px -50px;
+	border-radius: 150px 50px 90px 0px;
+	margin: 40px;	
+}
+
+/*cuarto titulo y parrafo (beneficios)*/
+#zen-benefits
+h3{
+	font-size: 40px;
+	text-align: center;
+	background: url(../image/flor.jpg);
+	height: 60px;
+	margin-top: 40px;
+	color: #e06040;	
+}
+.benefits{
+	margin-top: 40px;
+	background: url(../image/blaqui.jpg);
+	padding:-10px -50px;
+	border-radius: 150px 50px 90px 0px;
+	margin: 40px;
+}
+
+/*quinto titulo y parrafo(Requirements)*/
+#zen-requirements
+h3{
+	font-size: 40px;
+	text-align: center;
+	background: url(../image/flor.jpg);
+	height: 60px;
+	margin-top: 40px;
+	color: #e06040;
+}
+.requirements{
+	margin-top: 40px;
+	background: url(../image/blaqui.jpg);
+	padding:-10px -50px;
+	border-radius: 150px 50px 90px 0px;
+	margin: 40px;
+}
+
+/*cambiar los links a color (no azul) y su nivel de separacion entre texto, linea debajo*/
+a{
+	color:#F39C12  ;
+	text-decoration: underline;
+	margin: 5px;
+	padding: 5px; 
+}
+/*cambiar los parrafos*/
+p{
+	color: #DA5A23;
+	margin: 10px;
+	padding: 20px;
+}
+
+
+/*
+acá trate de hacer algo similar como cuadros de texto, pero se cambiaban todos :(
+incluyendo el primero que no queria que pasara, olvidenlo ya pude :P*/
+
+/*zona de hipervinculos y referencias*/
+#design-selection
+h3{
+	width: 500px; height: 70px;
+	font-size: 40px;
+	text-align: left;
+	background: url(../image/blue.jpg);
+	margin-top: 100px;
+	color: white;
+}
+/*hermosa imagen que adorna la lista del footer*/
+.sidebar{
+	margin-top: 40px;
+	background: url(../image/mona.jpg);
+	padding:-10px -50px;
+	border-radius: 50px 50px 90px 0px;
+	margin: 40px
+}
+/*cambiar el color de los hipervinculos a blanco solo aqui*/
+.wrapper a{
+	color:white;
+	text-decoration: underline;
+	margin: 5px;
+	padding: 5px;
+}
+
+
+#design-archives
+h3{
+	width: 500px; height: 70px;
+	font-size: 40px;
+	text-align: left;
+	background: url(../image/blue.jpg);
+	margin-top: 40px;
+	color: white;
+}
+
+#zen-resources
+h3{
+	width: 500px; height: 70px;
+	font-size: 40px;
+	text-align: left;
+	background: url(../image/blue.jpg);
+	margin-top: 40px;
+	color: white;
+}
